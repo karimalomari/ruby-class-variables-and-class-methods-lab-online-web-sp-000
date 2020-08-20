@@ -18,7 +18,12 @@ class Song
   end
   
   def self.genres
-    uniquegenreslist = []
+    @@genres.uniq
   end
-
+  
+  def self.artists
+    @@artists.uniq
+  end
+  
+  end
 end

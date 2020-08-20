@@ -13,4 +13,5 @@ class Song
     @@genres << @genre
   end
   
+  def
 end

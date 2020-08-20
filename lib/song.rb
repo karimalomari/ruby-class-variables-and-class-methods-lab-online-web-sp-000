@@ -17,5 +17,8 @@ class Song
     @@count
   end
   
-  
+  def self.genres
+    uniquegenreslist = []
+  end
+
 end
